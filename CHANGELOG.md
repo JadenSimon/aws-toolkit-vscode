@@ -1,3 +1,7 @@
+## 1.27.1 2021-07-07
+
+- **Bug Fix** Add new setting `aws.samcli.lambda.timeout` and remove `aws.samcli.debug.attach.timeout.millis` setting. The new setting sets the maximum time to wait for a local Lambda to start.
+
 ## 1.27.0 2021-07-01
 
 - **Bug Fix** SAM: fixed issue with downloading deployed lambdas
